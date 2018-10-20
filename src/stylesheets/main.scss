@@ -1,0 +1,25 @@
+@charset 'UTF-8';
+
+// Add files to sections as needed
+
+// 1. Configuration and helpers
+@import
+  'abstracts/variables',
+  'abstracts/mixins';
+
+// 2. Vendors (ie. normalize)
+
+// 3. Base stuff
+@import
+  'base/base',
+  'base/helpers';
+
+// 4. Layout-related sections (ie. header, footer)
+
+// 5. Components
+@import
+  'components/app';
+
+// 6. Page-specific styles
+
+// 7. Themes
