@@ -1,0 +1,8 @@
+.Board {
+  display: grid;
+  grid-auto-columns: 1fr;
+  grid-column-gap: $l-size;
+  background-color: $color-board;
+  height: 100vh;
+  padding: 6rem $l-size;
+}

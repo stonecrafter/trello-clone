@@ -1,0 +1,27 @@
+.Card {
+  background-color: $color-white;
+  color: $color-card-text;
+  margin-bottom: $xs-size;
+
+  &__contents {
+    padding: $m-size;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__arrow {
+    font-weight: 700;
+    cursor: pointer;
+
+    &:hover {
+      color: lighten($color-card-text, 25%);
+    }
+  }
+
+  &__text {
+    margin: 0 auto;
+    padding: 0 $s-size;
+    text-align: center;
+  }
+}

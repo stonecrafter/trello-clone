@@ -1,0 +1,49 @@
+.Column {
+  grid-row: 1;
+
+  &__title {
+    height: 4rem;
+    text-align: center;
+    display: flex;
+    margin-bottom: $s-size;
+
+    &--text {
+      margin: auto;
+    }
+
+    &--lightpurple {
+      background-color: $color-lightpurple;
+    }
+
+    &--lightpink {
+      background-color: $color-lightpink;
+    }
+
+    &--darkpink {
+      background-color: $color-darkpink;
+    }
+
+    &--darkpurple {
+      background-color: $color-darkpurple;
+    }
+  }
+
+  &__add {
+    height: 4.6rem;
+    padding: $xs-size $m-size;
+
+    button {
+      border: none;
+      outline: none;
+      background-color: transparent;
+      font-size: inherit;
+      font-weight: 700;
+      color: $color-button;
+      cursor: pointer;
+
+      &:hover {
+        color: lighten($color-button, 10%);
+      }
+    }
+  }
+}

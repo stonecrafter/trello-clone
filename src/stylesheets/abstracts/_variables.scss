@@ -1,14 +1,19 @@
-// Colours - these are examples!
-$color-primary: #b0a565;
-$color-primary-light: #ede68a;
-$color-primary-dark: #2A2400;
-$color-secondary: #4C5100;
+// Colours
+$color-button: #787F8C;
+$color-board: #ECEEEE;
+$color-white: #FFF;
+$color-card-text: #393C42;
+
+$color-lightpurple: #AEADF0;
+$color-lightpink: #C38D94;
+$color-darkpink: #A76571;
+$color-darkpurple: #565676;
 
 // Spacing
+$xs-size: .4rem;
 $s-size: 1.2rem;
-$m-size: 1.6rem;
-$l-size: 3.2rem;
-$xl-size: 4.8rem;
+$m-size: 1.4rem;
+$l-size: 2.5rem;
 
 // Breakpoints
 $desktop-breakpoint: 45rem;
